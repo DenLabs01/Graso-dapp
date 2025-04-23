@@ -9,11 +9,9 @@
   --color-background: var(--background);
   --color-foreground: var(--foreground);
 
-  /* Font families */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 
-  /* Your new fonts */
   --font-montserrat: var(--font-montserrat);
   --font-dm-sans: var(--font-dm-sans);
   --font-inter: var(--font-inter);

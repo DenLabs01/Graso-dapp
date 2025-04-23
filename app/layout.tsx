@@ -13,7 +13,7 @@ import {
 } from "next/font/google"
 import "./globals.css"
 
-// Keep your existing fonts
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -24,7 +24,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 })
 
-// Add the new fonts
+
 const montserrat = Montserrat({
   variable: "--font-montserrat",
   subsets: ["latin"],
