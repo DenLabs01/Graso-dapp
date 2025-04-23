@@ -1,35 +1,94 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import type React from "react"
+import type { Metadata } from "next"
+import {
+  Geist,
+  Geist_Mono,
+  Montserrat,
+  DM_Sans,
+  Inter,
+  Syne,
+  Raleway,
+  Roboto_Condensed,
+  League_Spartan,
+} from "next/font/google"
+import "./globals.css"
 
+// Keep your existing fonts
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
-});
+})
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
-});
+})
+
+// Add the new fonts
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  subsets: ["latin"],
+})
+
+const dmSans = DM_Sans({
+  variable: "--font-dm-sans",
+  subsets: ["latin"],
+})
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+})
+
+const syne = Syne({
+  variable: "--font-syne",
+  subsets: ["latin"],
+})
+
+const raleway = Raleway({
+  variable: "--font-raleway",
+  subsets: ["latin"],
+})
+
+const robotoCondensed = Roboto_Condensed({
+  variable: "--font-roboto-condensed",
+  subsets: ["latin"],
+})
+
+const leagueSpartan = League_Spartan({
+  variable: "--font-league-spartan",
+  subsets: ["latin"],
+})
 
 export const metadata: Metadata = {
   title: "Graso",
   description:
     "A decentralized platform aimed at providing developers and individual investors access to the real estate market",
-};
+}
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`
+          ${geistSans.variable}
+          ${geistMono.variable}
+          ${montserrat.variable}
+          ${dmSans.variable}
+          ${inter.variable}
+          ${syne.variable}
+          ${raleway.variable}
+          ${robotoCondensed.variable}
+          ${leagueSpartan.variable}
+          antialiased
+        `}
       >
         {children}
       </body>
     </html>
-  );
+  )
 }

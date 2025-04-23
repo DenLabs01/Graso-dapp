@@ -8,8 +8,19 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  /* Font families */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* Your new fonts */
+  --font-montserrat: var(--font-montserrat);
+  --font-dm-sans: var(--font-dm-sans);
+  --font-inter: var(--font-inter);
+  --font-syne: var(--font-syne);
+  --font-raleway: var(--font-raleway);
+  --font-roboto-condensed: var(--font-roboto-condensed);
+  --font-league-spartan: var(--font-league-spartan);
 }
 
 @media (prefers-color-scheme: dark) {
