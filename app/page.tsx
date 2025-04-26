@@ -1,10 +1,9 @@
-import Hero from "@/components/hero/Hero";
+import HeroSection from "@/components/hero-section/hero";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white">
-      <Hero />
-      {/* Other sections will go here */}
+    <main>
+      <HeroSection />
     </main>
   );
 }
