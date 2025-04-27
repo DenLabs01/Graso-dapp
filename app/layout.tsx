@@ -1,7 +1,6 @@
 import type React from "react";
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/components/navbar";
 
 export const metadata: Metadata = {
   title: "Graso",
@@ -17,7 +16,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className='antialiased'>
-        <Navbar />
         {children}
       </body>
     </html>
