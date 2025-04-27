@@ -36,16 +36,16 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-white shadow-md w-full font-montserrat">
+    <nav className="bg-white shadow-md w-full font-montserrat text-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2 md:py-5 lg:px-10">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex-shrink-0 text-2xl font-bold">
             <Image src="/GRASO.svg" alt="Logo" width={300} height={150} className="w-20 h-10" />
           </Link>
 
-          <div className="hidden md:flex space-x-6 lg:space-x-10 hover:text-[#24C2A5]">
+          <div className="hidden md:flex space-x-6 lg:space-x-10">
             {
-              navLinks.map((link) => <Link key={link.href} href={link.href} className="text-black hover:text-primary">{link.label}</Link>)
+              navLinks.map((link) => <Link key={link.href} href={link.href} className="hover:text-primary">{link.label}</Link>)
             }
           </div>
 

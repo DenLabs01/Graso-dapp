@@ -1,15 +1,12 @@
 import React from 'react';
-import { cn } from '@/lib/utils'; // I'll show how to write `cn` below if you need it
+import { cn } from '@/lib/utils';
 
-// Define allowed variants
 type ButtonVariant = 'primary' | 'secondary' | 'outline';
 
-// Extend button props
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: ButtonVariant;
 }
 
-// Styles based on variant
 const variantClasses: Record<ButtonVariant, string> = {
   primary: 'bg-primary text-white hover:bg-primary/70',
   secondary: 'bg-gray-600 text-white hover:bg-gray-700',
