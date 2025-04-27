@@ -22,7 +22,7 @@ export const Button: React.FC<ButtonProps> = ({
   return (
     <button
       className={cn(
-        'px-8 py-2 lg:px-14 lg:py-3 rounded-[10px] font-medium transition-colors duration-200 cursor-pointer',
+        'px-8 py-2 lg:px-14 lg:py-3 rounded-[10px] font-dm-sans font-semibold text-lg transition-colors duration-200 cursor-pointer',
         variantClasses[variant],
         className
       )}
