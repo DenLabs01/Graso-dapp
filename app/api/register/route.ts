@@ -1,4 +1,4 @@
-// app/api/listing/route.ts
+
 import { run } from "@/lib/mongoose/mongoose";
 import { NextResponse } from "next/server";
 

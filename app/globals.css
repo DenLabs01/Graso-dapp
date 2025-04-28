@@ -10,6 +10,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
   --font-montserrat: var(--font-montserrat);
   --font-dm-sans: var(--font-dm-sans);
   --font-inter: var(--font-inter);
