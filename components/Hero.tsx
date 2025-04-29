@@ -147,7 +147,7 @@ export default function Hero() {
                                 />
                                 <div className="absolute bottom-0 left-0 right-0 bg-white text-black p-3 md:p-4">
                                     <h3 className="font-bold uppercase text-sm md:text-base">JOS ESTATE</h3>
-                                    <p className="text-xs md:text-sm opacity-90 text-[#A0A0A1]">Port Harcourt, Nigeria</p>
+                                    <p className="text-[10px] md:text-xs opacity-90 text-[#A0A0A1]">Port Harcourt, Nigeria</p>
                                 </div>
                             </div>
 
