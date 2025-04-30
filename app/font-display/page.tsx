@@ -13,9 +13,7 @@ export default function FontPage() {
 
       <h2 className="text-xl font-raleway ">Raleway</h2>
 
-      <h2 className="text-xl font-roboto-condensed ">
-        Roboto Condensed
-      </h2>
+      <h2 className="text-xl font-roboto-condensed ">Roboto Condensed</h2>
 
       <h2 className="text-xl font-league-spartan ">League Spartan</h2>
     </div>
