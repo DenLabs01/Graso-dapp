@@ -1,5 +1,5 @@
 import Navbar from "@/components/navbar";
-import {Features} from "@/components/features";
+import { Features } from "@/components/features";
 
 export default function Home() {
   return (
@@ -8,6 +8,5 @@ export default function Home() {
       <Features />
       The Landing Page Here
     </main>
-  )
+  );
 }
-
