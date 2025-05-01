@@ -15,15 +15,15 @@ export function Features() {
         />
       </div>
 
-      <div className="container mx-auto max-w-6xl">
+      <div className="container mx-auto w-full">
         <div className="grid gap-8 md:grid-cols-2 md:gap-12 lg:gap-16 ">
           {/* Left content */}
           <div className="flex flex-col justify-center gap-8 ">
             <div className="flex flex-col items-start gap-3 lg:gap-5 ">
-              <span className="text-base font-extrabold uppercase tracking-wider  text-[#24C2A5] font-inter ">
+              <span className="text-base font-extrabold uppercase tracking-wider  text-[var(--custom-green2-400)] font-inter ">
                 Features
               </span>
-              <h2 className="text-3xl text-[#040119] font-semibold font-syne tracking-tight md:text-4xl lg:text-5xl">
+              <h2 className="text-3xl text-[var(--custom-slate3-950)] font-semibold font-syne tracking-tight md:text-4xl lg:text-5xl">
                 Secure funds for your project with Graso
               </h2>
               <p className="text-[var(--custom-slate3-950)] font-normal text-lg font-dm-sans lg:mt-1 ">
@@ -35,37 +35,37 @@ export function Features() {
             {/* Stats grid */}
             <div className="grid grid-cols-2 gap-6">
               <div className="space-y-1">
-                <p className="text-2xl font-bold font-dm-sans text-[#24C2A5] md:text-3xl lg:text-4xl">
+                <p className="text-2xl font-bold font-dm-sans text-[var(--custom-green2-400)] md:text-3xl lg:text-4xl">
                   $400k
                 </p>
-                <p className="text-xs font-medium font-inter uppercase tracking-wider text-[#040119]">
+                <p className="text-xs font-medium font-inter uppercase tracking-wider text-[var(--custom-slate3-950)]">
                   Average Raise
                 </p>
               </div>
 
               <div className="space-y-1">
-                <p className="text-2xl font-bold font-dm-sans text-[#24C2A5] md:text-3xl lg:text-4xl">
+                <p className="text-2xl font-bold font-dm-sans text-[var(--custom-green2-400)] md:text-3xl lg:text-4xl">
                   1M+
                 </p>
-                <p className="text-xs font-medium font-inter uppercase tracking-wider text-[#040119]">
+                <p className="text-xs font-medium font-inter uppercase tracking-wider text-[var(--custom-slate3-950)]">
                   Project Launch
                 </p>
               </div>
 
               <div className="space-y-1">
-                <p className="text-2xl font-bold font-dm-sans text-[#24C2A5] md:text-3xl lg:text-4xl">
+                <p className="text-2xl font-bold font-dm-sans text-[var(--custom-green2-400)] md:text-3xl lg:text-4xl">
                   $4.6M
                 </p>
-                <p className="text-xs font-medium font-inter uppercase tracking-wider text-[#040119]">
+                <p className="text-xs font-medium font-inter uppercase tracking-wider text-[var(--custom-slate3-950)]">
                   Raised Capital
                 </p>
               </div>
 
               <div className="space-y-1">
-                <p className="text-2xl font-bold font-dm-sans text-[#24C2A5] md:text-3xl lg:text-4xl">
+                <p className="text-2xl font-bold font-dm-sans text-[var(--custom-green2-400)] md:text-3xl lg:text-4xl">
                   1M+
                 </p>
-                <p className="text-xs font-medium font-inter uppercase tracking-wider text-[#040119]">
+                <p className="text-xs font-medium font-inter uppercase tracking-wider text-[var(--custom-slate3-950)]">
                   Unique Investors
                 </p>
               </div>
