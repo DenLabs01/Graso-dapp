@@ -37,8 +37,8 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white shadow-md w-full font-montserrat text-black">
-      <div className="lg:max-w-11/12 2xl:max-w-10/12 mx-auto px-4 sm:px-6 py-2 md:py-5 lg:px-10">
-        <div className="flex justify-between items-center h-16">
+      <div className="px-4 sm:px-6 py-2 md:py-5 lg:px-10 flex items-center justify-between w-full ">
+        <div className="w-full flex justify-between items-center h-16   ">
           <Link href="/" className="flex-shrink-0 text-2xl font-bold">
             <Image
               src="/icons/graso.svg"
@@ -69,7 +69,7 @@ export default function Navbar() {
           <div className="md:hidden flex items-center cursor-pointer">
             <button
               onClick={toggleMenu}
-              className="relative w-8 h-8 focus:outline-none"
+              className="relative w-8 h-8 focus:outline-none cursor-pointer "
             >
               <div
                 className="absolute top-1/2 left-1/2 w-6 h-0.5 bg-black transform transition duration-300 ease-in-out"
@@ -101,12 +101,14 @@ export default function Navbar() {
       <div
         className={`md:hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-screen" : "max-h-0 overflow-hidden"}`}
       >
-        <div className="flex flex-col items-center bg-white space-y-4 py-4 hover:text-primary font-medium text-sm">
-          {navLinks.map((link) => (
-            <Link key={link.href} href={link.href}>
-              {link.label}
-            </Link>
-          ))}
+        <div className="flex flex-col items-center bg-white gap-4 py-4  font-medium text-sm">
+          <ul className="flex flex-col items-center justify-evenly gap-4" >
+            {navLinks.map((link) => (
+              <Link key={link.href} href={link.href}  >
+                <li className=" hover:text-primary transition-all duration-150 ease-in-out " > {link.label}</li>
+              </Link>
+            ))}
+          </ul>
           <Button>Connect</Button>
         </div>
       </div>
