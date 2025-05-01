@@ -1,6 +1,5 @@
 .banner {
     font-family: "Montserrat", system-ui;
-    padding-bottom: 20px;
 }
 
 .hero {
@@ -43,6 +42,7 @@
     opacity: 0;
     animation: fadeIn 2s forwards;
     animation-delay: 700ms;
+    font-size: 20px;
 }
 
 @keyframes fadeIn {

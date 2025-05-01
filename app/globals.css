@@ -156,6 +156,10 @@
     --foreground: #ededed;
   }
 }
+*{
+  /* margin: 0; */
+  box-sizing: border-box;
+}
 
 body {
   background: var(--background);
