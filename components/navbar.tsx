@@ -102,10 +102,13 @@ export default function Navbar() {
         className={`md:hidden transition-all duration-300 ease-in-out ${isOpen ? "max-h-screen" : "max-h-0 overflow-hidden"}`}
       >
         <div className="flex flex-col items-center bg-white gap-4 py-4  font-medium text-sm">
-          <ul className="flex flex-col items-center justify-evenly gap-4" >
+          <ul className="flex flex-col items-center justify-evenly gap-4">
             {navLinks.map((link) => (
-              <Link key={link.href} href={link.href}  >
-                <li className=" hover:text-primary transition-all duration-150 ease-in-out " > {link.label}</li>
+              <Link key={link.href} href={link.href}>
+                <li className=" hover:text-primary transition-all duration-150 ease-in-out ">
+                  {" "}
+                  {link.label}
+                </li>
               </Link>
             ))}
           </ul>

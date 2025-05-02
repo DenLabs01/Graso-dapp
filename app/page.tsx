@@ -1,7 +1,7 @@
-import Hero from '@/components/hero-component/Hero';
+import Hero from "@/components/hero-component/Hero";
 import Navbar from "@/components/navbar";
 import { Features } from "@/components/features";
-import AboutPlatform from '@/components/about/about';
+import AboutPlatform from "@/components/about/about";
 
 export default function Home() {
   return (
@@ -12,7 +12,4 @@ export default function Home() {
       <Features />
     </main>
   );
-
 }
-
-

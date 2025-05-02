@@ -1,5 +1,5 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import Image from "next/image";
+import Link from "next/link";
 
 const AboutPlatform = () => {
   return (
@@ -47,14 +47,20 @@ const AboutPlatform = () => {
               className="h-8 w-8 "
             />
           </div>
-          <div  className="absolute -top-36 z-0 flex items-center justify-center h-[300px] w-[300px] md:h-[500px] md:w-[600px]">
-              <Image src={"/about-the-platform-section/image.png"} alt="curly image" height={100} width={100}  className="w-full h-full " />
+          <div className="absolute -top-36 z-0 flex items-center justify-center h-[300px] w-[300px] md:h-[500px] md:w-[600px]">
+            <Image
+              src={"/about-the-platform-section/image.png"}
+              alt="curly image"
+              height={100}
+              width={100}
+              className="w-full h-full "
+            />
           </div>
         </div>
 
         {/* Right Side - Text Content */}
         <div className="w-full md:w-1/2 h-[60vh]">
-          <div className='w-[80%] space-y-8 leading-6 mt-20'>
+          <div className="w-[80%] space-y-8 leading-6 mt-20">
             <div className="inline-block text-[#24C2A5] font-bold mb-4">
               ABOUT THE PLATFORM
             </div>
@@ -62,16 +68,22 @@ const AboutPlatform = () => {
               Graso is the Leading Decentralized Platform Empowering Real Estate
             </h2>
             <p className="text-black text-lg">
-              Empowering real estate projects to access funds from investors using our decentralized protocol network. Unlocking freedom to build a safe, trustless ownership model across the globe in a secure and compliant marketplace.
+              Empowering real estate projects to access funds from investors
+              using our decentralized protocol network. Unlocking freedom to
+              build a safe, trustless ownership model across the globe in a
+              secure and compliant marketplace.
             </p>
-            <Link href="/learn-more" className="mt-8 font-raleway inline-flex items-center py-1 border-b-3 font-bold border-[#1A1A1A57]">
+            <Link
+              href="/learn-more"
+              className="mt-8 font-raleway inline-flex items-center py-1 border-b-3 font-bold border-[#1A1A1A57]"
+            >
               Learn more →
             </Link>
           </div>
-          </div>
+        </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutPlatform
+export default AboutPlatform;
