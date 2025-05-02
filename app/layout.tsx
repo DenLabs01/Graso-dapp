@@ -10,6 +10,7 @@ import {
   League_Spartan,
 } from "next/font/google";
 import "./globals.css";
+import { Providers } from "./providers";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -71,7 +72,7 @@ export default function RootLayout({
           antialiased
         `}
       >
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
