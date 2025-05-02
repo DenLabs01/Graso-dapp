@@ -9,8 +9,7 @@ import {
 } from "@starknet-react/core";
 import { truncateAddress } from "@/util/wallet";
 import { WalletConnectModal } from "./wallet-connect-modal";
-import { WalletDropdown } from "./wallet-dropdown"
-import { Wallet } from "lucide-react";
+import { WalletDropdown } from "./wallet-dropdown";
 import { Button } from "./button";
 
 export function WalletConnectButton() {
@@ -116,8 +115,7 @@ export function WalletConnectButton() {
         onClick={handleConnect}
         className="flex items-center gap-2 px-4 py-2 bg-[#24C2A5] hover:bg-[#1ca38a] text-white rounded-lg transition-all duration-200 shadow-sm cursor-pointer"
       >
-        <Wallet className="w-4 h-4" />
-        {isConnected && address ? truncateAddress(address) : "Connect Wallet"}
+        {isConnected && address ? truncateAddress(address) : "Connect"}
       </Button>
 
       {/* Wallet Connect Modal */}
