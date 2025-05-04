@@ -1,28 +1,25 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import './Hero.css';
+import Image from "next/image";
+import Link from "next/link";
+import "./Hero.css";
 
 export default function Hero() {
   return (
     <div className=" banner">
       <div className="hero">
         <div className="text">
-          <h1 className="font-montserrat text-[#000000]  ">Making Real Estate More Accessible to All</h1>
+          <h1 className="font-montserrat text-[#000000]  ">
+            Making Real Estate More Accessible to All
+          </h1>
           <p className="font-dm-sans">
             Bringing a better and faster means for developers to raise funds,
-            while giving individual investors fractional ownership of real world assets.
+            while giving individual investors fractional ownership of real world
+            assets.
           </p>
           <div className="button-holder">
-            <Link
-              href="#"
-              className="invest-button font-dm-sans"
-            >
+            <Link href="#" className="invest-button font-dm-sans">
               Invest
             </Link>
-            <Link
-              href="#"
-              className="develop-button font-dm-sans"
-            >
+            <Link href="#" className="develop-button font-dm-sans">
               Develop
             </Link>
           </div>
