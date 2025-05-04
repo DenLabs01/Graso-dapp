@@ -75,7 +75,7 @@ const AboutPlatform = () => {
             </p>
             <Link
               href="/learn-more"
-              className="mt-8 font-raleway inline-flex items-center py-1 border-b-3 font-bold border-[#1A1A1A57]"
+              className="mt-8 font-raleway inline-flex items-center  py-1 border-b-3 font-bold border-[#1A1A1A57]"
             >
               Learn more →
             </Link>
