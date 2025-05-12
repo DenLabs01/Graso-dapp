@@ -1,0 +1,13 @@
+.footer-list {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #040119;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif !important;
+  color: #040119 !important;
+}
