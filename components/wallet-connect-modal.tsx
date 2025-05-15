@@ -83,7 +83,7 @@ export function WalletConnectModal({
     {
       name: "ArgentX",
       description: "The most popular Starknet wallet",
-      icon: "/wallet-argents/argent-x-logo.webp", 
+      icon: "/wallet-argents/argent-x-logo.webp",
       url: "https://www.argent.xyz/argent-x/",
       chromeUrl:
         "https://chrome.google.com/webstore/detail/argent-x/dlcobpjiigpikoobohmabehhmhfoodbb",
@@ -186,7 +186,7 @@ export function WalletConnectModal({
                           Available
                         </span>
                       </button>
-                    )
+                    ),
                 )}
               </div>
             </div>
