@@ -70,6 +70,7 @@ export default function RootLayout({
           ${robotoCondensed.variable}
           ${leagueSpartan.variable}
           antialiased
+          w-full min-h-screen
         `}
       >
         <Providers>{children}</Providers>

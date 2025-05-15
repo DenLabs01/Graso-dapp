@@ -46,6 +46,6 @@ export function useStarknetConfig() {
       autoConnect: true,
       onDisconnectError: handleDisconnectError,
     }),
-    [connectors, handleDisconnectError]
+    [connectors, handleDisconnectError],
   );
 }

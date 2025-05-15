@@ -95,7 +95,7 @@ export function WalletConnectButton() {
     return () => {
       window.removeEventListener(
         "wallet_disconnected",
-        handleWalletDisconnected
+        handleWalletDisconnected,
       );
 
       if (dropdownTimeoutRef.current) {

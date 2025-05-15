@@ -44,7 +44,7 @@ export function useWalletConnection() {
         setIsConnecting(false);
       }
     },
-    [connect]
+    [connect],
   );
 
   // Disconnect wallet
@@ -86,7 +86,7 @@ export function useWalletConnection() {
     return () => {
       window.removeEventListener(
         "wallet_disconnected",
-        handleWalletDisconnected
+        handleWalletDisconnected,
       );
     };
   }, []);
