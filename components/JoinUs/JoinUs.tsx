@@ -26,7 +26,7 @@ const CtaSection: React.FC = () => {
 
         <p className="text-xl mb-8">Invest and Develop</p>
 
-        <Button variant="outline" onClick={handleGetStarted}>
+        <Button variant="outline" onClick={handleGetStarted} >
           Get started
         </Button>
       </div>
