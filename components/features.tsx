@@ -2,16 +2,16 @@ import Image from "next/image";
 
 export function Features() {
   return (
-    <section className="relative w-full flex items-center justify-center py-16 px-4 md:py-24 bg-white ">
+    <section className="relative w-full flex items-center justify-center py-16 px-4 md:py-24   ">
       <div className=" w-full  max-w-[1140px] mx-auto ">
         {/* Decorative star in top right */}
-        <div className="absolute top-4 right-4 md:top-8 md:right-8">
+        <div className="absolute top-[8%] right-[15%] md:top-[10%] md:right-[15%] ">
           <Image
             src="/icons/sparkle.svg"
             alt="City skyline investment concept"
             width={20}
             height={20}
-            className="h-5 w-5 object-cover"
+            className="h-5 w-5 md:h-10 md:w-10 object-cover"
           />
         </div>
 
@@ -73,7 +73,7 @@ export function Features() {
             </div>
 
             {/* Right content - Image with decorative lines */}
-            <div className=" flex items-center justify-center relative">
+            <div className=" flex items-center justify-center relative  ">
               <div className="relative h-64 w-64 md:h-80 md:w-80 ">
                 {/* Circular image */}
                 <div className="relative h-full w-full overflow-hidden rounded-full border-4 border-white shadow-lg z-10">
@@ -87,7 +87,7 @@ export function Features() {
                 </div>
 
                 {/* Decorative curved lines */}
-                <div className="  absolute top-0 left-0 z-0 flex items-center justify-center h-[300px] w-[300px] md:h-[500px] md:w-[600px]  ">
+                <div className="  absolute top-[-20%] left-0 z-0 flex items-center justify-center h-[300px] w-[300px] md:h-[500px] md:w-[480px]  ">
                   <Image
                     src={"/features-section/curly-line.png"}
                     alt="curly image"

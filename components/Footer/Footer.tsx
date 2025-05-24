@@ -25,7 +25,7 @@ const aboutLinks = [
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-[url('/footerbg.png')] bg-cover bg-center bg-no-repeat py-16 px-[3%] border-t border-[color:var(--custom-gray-200)] font-inter ">
+    <footer className="bg-[url('/footerbg.png')] bg-cover bg-center bg-no-repeat py-16 px-[3%]  font-inter ">
       <div className="w-full px-4 flex flex-col gap-8 md:gap-12 ">
         {/* Top Half */}
         <div className="flex flex-col md:flex-row md:justify-between gap-8 w-full">

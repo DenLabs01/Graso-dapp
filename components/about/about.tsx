@@ -3,12 +3,12 @@ import Link from "next/link";
 
 const AboutPlatform = () => {
   return (
-    <section className="w-full min-h-screen py-16 bg-white font-dm-sans">
-      <div className="container mx-auto px-4 md:px-6 flex flex-col md:flex-row space-y-12 lg:space-y-0 items-center justify-between gap-12 relative">
+    <section className="w-full min-h-screen py-16  font-dm-sans bg-[var(--background)] flex items-center justify-center">
+      <div className="container px-4 md:px-6 flex flex-col md:flex-row   items-start justify-between gap-12 relative bg-[var(--background)] ">
         {/* Left Side - Image Cards */}
-        <div className="relative w-full md:w-1/2 min-h-[70vh] top-20 flex items-center justify-center">
+        <div className="relative w-full md:w-1/2 min-h-[70vh] flex items-center justify-center ">
           {/* Back Card */}
-          <div className="absolute top-36 left-28 z-10 w-[217.73px] h-[260.75px] lg:w-84 lg:h-104 p-8 bg-foreground rounded-3xl shadow-lg overflow-hidden rotate-[-10deg]">
+          <div className="absolute  top-[60%] left-[35%] md:left-[30%] translate-x-[-50%] translate-y-[-50%] z-10 w-[217.73px] h-[260.75px] lg:w-84 lg:h-104 p-8 bg-foreground rounded-3xl shadow-lg overflow-hidden rotate-[-10deg]">
             <div className="w-full h-[84%] ">
               <Image
                 src="/about-the-platform-section/about-stream-img.webp"
@@ -19,7 +19,7 @@ const AboutPlatform = () => {
               />
             </div>
             <div className="pt-3">
-              <h3 className="text-xl text-background font-bold">STREAM</h3>
+              <h3 className="text-xl text-[var(--background)] font-bold">STREAM</h3>
               <p className="text-sm  text-[var(--custom-gray2-400)] font-normal">
                 Delta, Nigeria
               </p>
@@ -27,7 +27,7 @@ const AboutPlatform = () => {
           </div>
 
           {/* Front Card */}
-          <div className="absolute top-10 right-20 z-20 w-[217.73px] h-[260.75px] lg:w-84 lg:h-104 bg-background rounded-3xl shadow-lg overflow-hidden rotate-[10deg] p-8">
+          <div className="absolute  top-[48%] left-[60%] md:left-[50%] translate-x-[-50%] translate-y-[-50%] z-20 w-[217.73px] h-[260.75px] lg:w-84 lg:h-104 bg-background rounded-3xl shadow-lg overflow-hidden rotate-[10deg] p-8">
             <div className="w-full h-[84%] ">
               <Image
                 src="/about-the-platform-section/about-hola-img.webp"
@@ -41,7 +41,7 @@ const AboutPlatform = () => {
               <h3 className="text-xl text-[var(--custom-neutral-950)] font-bold">
                 HOLA
               </h3>
-              <p className="text-sm text-[var(--custom-zinc-400)]">
+              <p className="text-sm text-[var(--custom-zinc-400)] font-normal ">
                 Lagos, Nigeria
               </p>
             </div>
@@ -69,15 +69,15 @@ const AboutPlatform = () => {
         </div>
 
         {/* Right Side - Text Content */}
-        <div className="w-full md:w-1/2 h-[60vh]">
-          <div className="w-[80%] space-y-8 leading-6 mt-20">
-            <div className="inline-block text-[var(--custom-green2-400)] font-extrabold text-base mb-4">
+        <div className="w-full  md:min-w-[400px] md:max-w-[608px] p-2 ">
+          <div className="  leading-6 ">
+            <div className="inline-block text-[var(--custom-green2-400)] font-extrabold text-base mb-4 font-inter" >
               ABOUT THE PLATFORM
             </div>
-            <h2 className="font-syne text-3xl text-[43px] font-semibold text-[var(--custom-slate3-950)] mb-6">
+            <h2 className="font-syne text-2xl md:text-[43px] font-semibold text-[var(--custom-slate3-950)] mb-6">
               Graso is the Leading Decentralized Platform Empowering Real Estate
             </h2>
-            <p className="text-black font-normal text-lg  ">
+            <p className="text-black font-normal text-lg font-dm-sans  ">
               Empowering real estate projects to access funds from investors
               using our decentralized protocol network. Unlocking freedom to
               build a safe, trustless ownership model across the globe in a
