@@ -16,7 +16,7 @@
 export function truncateAddress(
   address: string,
   startChars = 4,
-  endChars = 4
+  endChars = 4,
 ): string {
   if (!address) return "";
 
